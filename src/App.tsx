@@ -15,7 +15,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/productCatalog">
       <div className="container">
         <Routes>
           <Route path="/" element={<ProductList products={products} />} />
