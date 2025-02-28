@@ -1,0 +1,25 @@
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .product-image-large {
+    width: 100%;
+    max-width: 400px; /* Limits the image size */
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555;
+  }
+  
